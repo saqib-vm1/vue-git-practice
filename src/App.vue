@@ -1,10 +1,14 @@
 <template>
   <h3>Created and imported Vue component.</h3>
   <TemplateSyntax />
+  <hr />
+  <hr />
+  <VModel />
 </template>
 
 <script setup>
   import TemplateSyntax from './components/template-syntax/TemplateSyntax.vue';
+  import VModel from './components/v-model/VModel.vue';
 </script>
 
 <style>
