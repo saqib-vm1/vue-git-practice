@@ -4,11 +4,15 @@
   <hr />
   <hr />
   <VModel />
+  <hr />
+  <hr />
+  <ProvideInject />
 </template>
 
 <script setup>
   import TemplateSyntax from './components/template-syntax/TemplateSyntax.vue';
   import VModel from './components/v-model/VModel.vue';
+  import ProvideInject from './components/provide-inject/ProvideInject.vue';
 </script>
 
 <style>
