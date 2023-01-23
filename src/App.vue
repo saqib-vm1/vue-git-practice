@@ -1,9 +1,10 @@
 <template>
-  
+  <h3>Created and imported Vue component.</h3>
+  <TemplateSyntax />
 </template>
 
-<script>
-
+<script setup>
+  import TemplateSyntax from './components/template-syntax/TemplateSyntax.vue';
 </script>
 
 <style>
