@@ -10,6 +10,9 @@
   <hr />
   <hr />
   <WatchersComponent />
+  <hr />
+  <hr />
+  <TemplateRefs />
 </template>
 
 <script setup>
@@ -17,6 +20,7 @@
   import VModel from './components/v-model/VModel.vue';
   import ProvideInject from './components/provide-inject/ProvideInject.vue';
   import WatchersComponent from './components/watchers/WatchersComponent.vue'
+  import TemplateRefs from './components/template-refs/TemplateRefs.vue';
 </script>
 
 <style>
