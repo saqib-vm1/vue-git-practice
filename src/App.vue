@@ -7,12 +7,16 @@
   <hr />
   <hr />
   <ProvideInject />
+  <hr />
+  <hr />
+  <ComputedProperties />
 </template>
 
 <script setup>
   import TemplateSyntax from './components/template-syntax/TemplateSyntax.vue';
   import VModel from './components/v-model/VModel.vue';
   import ProvideInject from './components/provide-inject/ProvideInject.vue';
+import ComputedProperties from './components/computed-properties/ComputedProperties.vue';
 </script>
 
 <style>
