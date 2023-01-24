@@ -7,12 +7,16 @@
   <hr />
   <hr />
   <ProvideInject />
+  <hr />
+  <hr />
+  <WatchersComponent />
 </template>
 
 <script setup>
   import TemplateSyntax from './components/template-syntax/TemplateSyntax.vue';
   import VModel from './components/v-model/VModel.vue';
   import ProvideInject from './components/provide-inject/ProvideInject.vue';
+  import WatchersComponent from './components/watchers/WatchersComponent.vue'
 </script>
 
 <style>
