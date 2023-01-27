@@ -13,6 +13,9 @@
   <hr />
   <hr />
   <TemplateRefs />
+  <hr />
+  <hr />
+  <SlotsComponent />
 </template>
 
 <script setup>
@@ -21,6 +24,7 @@
   import ProvideInject from './components/provide-inject/ProvideInject.vue';
   import WatchersComponent from './components/watchers/WatchersComponent.vue'
   import TemplateRefs from './components/template-refs/TemplateRefs.vue';
+  import SlotsComponent from './components/slots/SlotsComponent.vue';
 </script>
 
 <style>
